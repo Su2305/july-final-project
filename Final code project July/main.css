@@ -1,0 +1,220 @@
+html {background-color: #FEEDEC;}
+
+body{
+    font-family: 'Open Sans', sans-serif;  
+    color: #370C06;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: #1E0D0B;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #1E0D0B;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1E0D0B;
+}
+
+a:active {
+    text-decoration: underline;
+    color: #1E0D0B;
+}
+
+.navBar{
+    overflow: hidden;
+    background-color: #BD897E; 
+    display: flex;
+    justify-content: center;
+}
+.navBar a{
+    color: #370C06;
+    padding: 15px 15px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navBar a:hover{
+    background-color: #EEC5BE;
+    color:#1E0D0B;
+}
+
+.navBar input[type=text]{
+    padding: 6px;
+    border-radius: 20px;
+    border-color: #370C06;
+    margin-top: 9px;
+    margin-right: 6px;
+    margin-bottom: 9px;
+    border: 2px solid #370C06;
+}
+
+.pageTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EEC5BE ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #370C06 ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#titleDescription{
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.submissions{
+    display: flex;
+    justify-content: center;
+    color: #370C06;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#submissionButton{
+    margin-left: 12px;
+    color: #f2d4ce ;
+    font-weight: bold;
+    background-color: #CF978C ;
+    border-radius: 5px;
+    border: 0px;
+}
+
+#submissionButton:hover{
+    background-color: #f2d4ce;
+    border: 2px solid #370C06;
+    color: #370C06 ;
+}
+
+#navCardsTitle{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#pageName{
+    font-size: 20px;
+    text-decoration-line: none;
+    color: #370C06;
+}
+
+.navCards{
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    font-size: 20px;
+    text-decoration-line: none;
+    color: #370C06;
+}
+
+.cards{
+    display:flex;
+    font-size: 20px;
+    text-decoration-line: none;
+    color: #370C06;
+}
+
+.card{
+    background:##EEC5BE;
+    border-color: #BD897E;
+    border-style: solid;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 3px 3px 12px 2px rgba(black, 0.6);
+    transition: 0.2s;  
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #370C06;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+
+.card:hover,
+.card:not(:last-child):focus-within{
+    transform: translateY(-1rem);
+    .card {
+        transform: translateX(2rem);
+    }
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: ##EEC5BE;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #370C06;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#newsletterTitle{
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+#newsletterDescription{
+    font-size: 12px;
+}
+
+#subscribeButton{
+    margin-left: 12px;
+    color: #F2D4CE;
+    font-weight: bold;
+    background-color: #CF978C ;
+    border-radius: 5px;
+    border: 0px;
+}
+
+#subscribeButton:hover{
+    background-color: #FEEDEC;
+    border: 2px solid #370C06;
+    color: #370C06;
+}
+
+
+
+.navBarFooter{
+    overflow: hidden;
+    background-color: #BD897E;
+    display: flex;
+    justify-content: center;
+}
+.navBarFooter a{
+    float: left;
+    display: block;
+    color: #370C06;
+    padding: 15px 15px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navBarFooter a:hover{
+    background-color: ##EEC5BE;
+    color:#1E0D0B;
+}
+
+.navBarFooter input[type=text]{
+    float: right;
+    padding: 6px;
+    border-radius: 20px;
+    border-color: #370C06;
+    margin-top: 9px;
+    margin-right: 6px;
+    border: 2px solid #370C06;
+}
